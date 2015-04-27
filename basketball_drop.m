@@ -38,7 +38,7 @@ v = vTerm * (1-exp(-(sqrt(Q*g)*t)));
 
 % Write data table to Word doc
 VofT = [t v]';
-docfile = fopen('fall.doc','w');
+docfile = fopen('fall.txt','w');
 fprintf(docfile, '-------------------------------\n');
 fprintf(docfile, '    Basketball Drop Problem\n');
 fprintf(docfile, '-------------------------------\n');
