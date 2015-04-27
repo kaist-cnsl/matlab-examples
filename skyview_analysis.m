@@ -211,5 +211,5 @@ if ~ exist('GPS_data','var')
 end
 
 % Now we have an interactive online map of the GPS data.
-%web('http://media.aeropunk.com/assets/data/skyview-map.html');
+web('http://media.aeropunk.com/assets/data/skyview-map.html');
 
