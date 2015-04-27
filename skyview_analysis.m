@@ -5,11 +5,13 @@
 % 
 % "skyview_analysis.m"
 %
-% 28 April 2015
+% 27 April 2015
 %
 % Reads a file containing comma-delimited data exported from
 % a Dynon Avionics "SkyView" integrated avionics system, and
 % analyzes some common flight and engine parameters.
+%
+% https://github.com/briandwendt/MATLAB/blob/master/skyview_analysis.m
 %
 % SkyView Info:
 %   http://www.thenewskyview.com/
