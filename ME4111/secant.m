@@ -1,4 +1,4 @@
-function [root,ea,iter]=secant(func,xh,xi,es,maxit)
+function [root] = secant(func,xh,xi,es,maxit)
 %
 % Brian D. Wendt
 % ME:4111 Numerical Calculations
@@ -20,7 +20,7 @@ if nargin < 5 || isempty(maxit), maxit=50; end
 % Initialize number of iterations
 iter = 0;
 
-% Create arrays for data table
+% Initialize arrays for data table
 i = [];
 x_im1 = [];
 x_i = [];
