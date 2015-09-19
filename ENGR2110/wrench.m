@@ -3,8 +3,8 @@
 % A torque (moment) of 27 N·m is required to turn the bolt about its axis. 
 % Determine P and the magnitudes of the forces between the smooth hardened 
 % jaws of the wrench and the corners A and B of the hexagonal head. Assume 
-% that the wrench fits easily on the bolt so that contact is made at corners 
-% A and B only.
+% that the wrench fits easily on the bolt so that contact is made at
+% corners A and B only.
 clc; clear; format compact;
 
 % INPUT VALUES from problem statement:
