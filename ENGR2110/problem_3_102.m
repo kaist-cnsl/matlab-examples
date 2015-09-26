@@ -1,5 +1,5 @@
-
 % Problem 3/102
+% Meriam and Kraige, Engineering Mechanics: Statics, 8e
 
 % The uniform bar with end rollers weighs 75 lb and is supported by the
 % horizontal and vertical surfaces and by the wire AC. Calculate the

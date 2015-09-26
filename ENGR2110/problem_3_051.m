@@ -1,4 +1,5 @@
-% Problem 3/051 Statics
+% Problem 3/051
+% Meriam and Kraige, Engineering Mechanics: Statics, 8e
 
 % A torque (moment) of 27 N·m is required to turn the bolt about its axis. 
 % Determine P and the magnitudes of the forces between the smooth hardened 
