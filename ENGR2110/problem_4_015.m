@@ -3,9 +3,9 @@
 
 % Determine the forces in members BC and BG of the loaded truss.
 % The forces are positive if in tension, negative if in compression.
-clc;format compact
+clc; format compact
 
-load_at_points_C_and_D = 4.1; % kN
+load_at_points_C_and_D = 2.6; % kN
 load_at_point_G = 3.3; % kN
 
 % reaction force at point A
