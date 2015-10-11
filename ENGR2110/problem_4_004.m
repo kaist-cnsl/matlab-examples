@@ -8,17 +8,15 @@ BC_length = 2.7; % feet
 A_load = 180;    % lbs
 C_angle = 46;    % degrees
 
-% Let angle BAC be theta
+% Let theta be angle BAC
 theta = atand(BC_length/AB_length);
 AC = A_load / -sind(theta);
 AB = -AC * cosd(theta);
 % Cn is the reaction force at roller C
 Cn = (AC * cosd(theta)) / sind(C_angle);
-BC = -((AC * sind(theta)) - (Cn * cosd(C_angle)));
+BC = Cn * cosd(C_angle) - AC * sind(theta);
 
 % Display results
-fprintf('Positive forces are in tension and\n');
-fprintf('negative forces are in compression.\n');
-fprintf('AB    = %6.f lb\n', AB);
-fprintf('AC    = %6.f lb\n', AC);
-fprintf('BC    = %6.f lb\n', BC);
+fprintf('AB    = %7.1f lb\n', AB);
+fprintf('AC    = %7.1f lb\n', AC);
+fprintf('BC    = %7.1f lb\n', BC);
