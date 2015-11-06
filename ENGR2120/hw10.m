@@ -30,7 +30,7 @@ plot(t1,iR,'m','LineWidth',5);
 xlim([-0.1 0.7]);
 ylim([-0.1 1.8]);
 
-% Move axes to origin
+% Move axes to origin **SAVE THIS PART!!**
 ax = gca;
 ax.XAxisLocation = 'origin';
 ax.YAxisLocation = 'origin';
