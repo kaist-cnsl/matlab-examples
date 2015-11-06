@@ -34,3 +34,13 @@ ylim([-0.1 1.8]);
 ax = gca;
 ax.XAxisLocation = 'origin';
 ax.YAxisLocation = 'origin';
+
+% Axis labels
+xlabel('Time (s)','FontSize',16);
+ylabel('Current (mA)','FontSize',16);
+
+xlabh = get(gca,'xlabel');
+set(xlabh,'Position',get(xlabh,'Position') - [0 .1 0]);
+ylabh = get(gca,'ylabel');
+set(ylabh,'Position',get(ylabh,'Position') - [.1 0 0]);
+
